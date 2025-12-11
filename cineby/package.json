@@ -1,0 +1,31 @@
+{
+  "name": "@yourusername/cineby",
+  "version": "1.0.0",
+  "description": "Cineby module for TizenBrew - TV-friendly navigation",
+  "packageType": "mods",
+  "appName": "Cineby",
+  "websiteURL": "https://www.cineby.gd",
+  "main": "dist/userScript.js",
+  "serviceFile": "dist/service.js",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arjunyadavsoma/cineby"
+  },
+  "scripts": {
+    "build": "npm run build:mods && npm run build:service",
+    "build:mods": "cd mods && npm install && npm run build",
+    "build:service": "cd service && npm install && npm run build"
+  }
+}

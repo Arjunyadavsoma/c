@@ -1,0 +1,9 @@
+{
+  "name": "cineby-service",
+  "version": "1.0.0",
+  "description": "Service module for Cineby",
+  "main": "service.js",
+  "scripts": {
+    "build": "node -e \"require('fs').copyFileSync('service.js', '../dist/service.js')\""
+  }
+}

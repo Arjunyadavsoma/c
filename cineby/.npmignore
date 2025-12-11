@@ -1,0 +1,8 @@
+mods/src/
+mods/node_modules/
+mods/webpack.config.js
+service/node_modules/
+.git/
+*.log
+build.bat
+build.sh
