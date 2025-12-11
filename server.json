@@ -1,0 +1,5 @@
+{
+  "main": "main.js",
+  "injectScript": "inject.js",
+  "service": "service.js"
+}

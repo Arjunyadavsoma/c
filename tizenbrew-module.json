@@ -1,0 +1,11 @@
+{
+  "id": "cineby",
+  "name": "Cineby",
+  "version": "1.0.0",
+  "entry": "dist/userScript.js",
+  "inject": "inject/index.js",
+  "service": "service/index.js",
+  "developer": "arjun",
+  "platform": "web",
+  "description": "Cineby module for Tizen TV"
+}
